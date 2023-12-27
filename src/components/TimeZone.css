@@ -1,0 +1,10 @@
+.time h3{
+    margin-bottom: 10px;
+}
+
+.timezone {
+    display: flex;
+    height: 3em;
+    border-radius: .25em;
+  }
+
