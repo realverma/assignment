@@ -17,7 +17,7 @@
 }
 
 .datebox{
-    background-color: rgb(217, 217, 217);
+    background-color: rgb(255 255 255 / 68%);
     width: 20%;
     align-items: center;
     display: flex;

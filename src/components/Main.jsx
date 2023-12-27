@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./Main.css";
-import jsonData from "../data.json";
 
 
 
@@ -62,7 +61,7 @@ function convertTo24HourFormat(time) {
             <div className="timebox_main">
             {!isDateBeforeCurrentDate(day.date) ? (
               day.timeSlot.map((time, index) => {
-                // Check if jsonData has a matching date and time
+                // matching date and time
                 const isMatchingDateTime = jsonData.some(
                   (data) => data.Date === day.date && data.Time === convertTo24HourFormat(time)
                 );
